@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="chatbot-icon"><i class="fa-solid fa-comment"></i></div>
+    <div id="chatbot-container" class="hidden">
+        <div id="chatbot-header">
+            <span>ChatBot</span>
+            <button id="close-btn">&times;</button>
+        </div>
+        <div id="chatbot-body">
+            <div id="chatbot-messages">
+
+            </div>
+        </div>
+        <div id="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Type a message">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
